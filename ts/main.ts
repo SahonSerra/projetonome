@@ -8,8 +8,8 @@ namespace empresa{
         let p = new Cliente(90);
         p.nome = campoNome.value;
         p.anoNasc = parseInt(campoAno.value);
-        p.codigo =100;
-        p.codigo = 90;
+       
+        
 
         document.getElementById("nome").textContent = p.nome;
         document.getElementById("ano").textContent = p.anoNasc.toString();
